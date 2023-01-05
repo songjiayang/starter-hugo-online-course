@@ -4,23 +4,15 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: 主页
     url: '/'
     weight: 10
-  - name: Courses
-    weight: 20
-    identifier: courses
-  - name: Data science
+  - name: 文档
     PageRef: course/data-science/_index.md
-    weight: 10
-    parent: courses
-  - name: Robotics
-    PageRef: course/robotics/_index.md
     weight: 20
-    parent: courses
-  - name: Blog
+  - name: 博客
     PageRef: post/_index.md
     weight: 30
-  - name: Contact
+  - name: 联系我们
     PageRef: contact/index.md
     weight: 60
